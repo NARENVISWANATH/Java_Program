@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package PGDFJ25;
+
+/**
+ *
+ * @author NAREN
+ */
+public class Program1 {
+    int a =10;// instance variable
+    static int b = 20;// static variable
+    
+    void disp()//method
+    {
+        int c=30;//local variable
+    }
+    public static void main(String args[])
+    {
+        //class_name obj_ref = new class_name();
+        Program1 p = new Program1();//create object of class
+        System.out.println(p.a);
+    }
+    
+}
